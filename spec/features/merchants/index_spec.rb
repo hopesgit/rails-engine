@@ -31,5 +31,10 @@ describe 'as a user' do
       expect(parsed_response[49]).to eq({"id" => "50", "type" => "merchant", "attributes" => {"id" => merchant_2.id, "name" => merchant_2.name}})
       expect(parsed_response.count).to eq(50)
     end
+
+    # write test for very high limits
+    # write test for limit 0
+    # write test for negative limits (can this even be passed?)
+    # write test for limit param exceeding # of entries
   end
 end
