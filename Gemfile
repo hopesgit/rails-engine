@@ -35,7 +35,6 @@ group :test do
   gem 'faker'
   gem 'launchy'
   gem 'rspec-rails'
-  gem 'rubocop-rspec'
   gem 'shoulda-matchers'
   gem 'simplecov'
 end
