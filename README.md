@@ -19,7 +19,7 @@ As you may be used to, run:
 to get started!
 
 ## Deployment
-This repo is hosted on Heroku. You can call the api using ``` **.heroku.com``` + the routes below to call this API!
+This repo is hosted on [Heroku](https://hope-rails-engine.herokuapp.com/). You can call the api using the heroku link above (```hope-rails-engine.herokuapp.com/```) + the routes below to call this API!
 
 ## Routes
 * note: this API does not use keys; please be kind about your calls!
