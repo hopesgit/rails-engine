@@ -7,7 +7,7 @@ describe InvoiceItem, type: :model do
     it { should validate_presence_of :quantity }
   end
 
-  describe 'relationsihps' do
+  describe 'relationships' do
     it { should belong_to :invoice }
     it { should belong_to :item }
   end

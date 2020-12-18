@@ -14,6 +14,7 @@ gem 'puma', '~> 3.11'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'fast_jsonapi'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -28,11 +29,14 @@ group :development do
 end
 
 group :test do
-  gem 'rspec-rails'
   gem 'capybara'
-  gem 'simplecov'
-  gem 'rubocop-rspec'
+  gem 'database_cleaner'
+  gem 'factory_bot_rails'
+  gem 'faker'
+  gem 'launchy'
+  gem 'rspec-rails'
   gem 'shoulda-matchers'
+  gem 'simplecov'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
