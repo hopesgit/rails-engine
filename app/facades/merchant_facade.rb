@@ -27,4 +27,8 @@ class MerchantFacade
       return false
     end
   end
+
+  def self.find_merchant(name)
+    Merchant.where("name LIKE ?", "%#{name}%").limit(1)[0]
+  end
 end
