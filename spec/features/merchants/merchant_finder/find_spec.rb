@@ -19,5 +19,8 @@ describe "as a user" do
       answer = JSON.parse(response.body)["data"]["attributes"]["name"]
       expect(answer).to eq(@merchant_2.name)
     end
+
+    # needs more PEPPER
+    # also need to make search methods for created_by and updated_by
   end
 end
